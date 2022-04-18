@@ -42,7 +42,7 @@ const SOLARIZED = [
     { colorName: 'Purple', hexCode: '#9900F0' },
     { colorName: 'Pink', hexCode: '#F900BF' },
     { colorName: 'Peach', hexCode: '#FF85B3' },
-    { colorName: 'Orange', hexCode: '#e66225' },
+    { colorName: 'Middle Red', hexCode: '#F38D68' },
   ]
 
   const RANDOM_COLORS = [
