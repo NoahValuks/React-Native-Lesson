@@ -37,10 +37,28 @@ const SOLARIZED = [
     { colorName: 'Orange', hexCode: '#e66225' },
   ];
 
+  const BI_FLAG = [
+    { colorName: 'Blue', hexCode: '#4700D8' },
+    { colorName: 'Purple', hexCode: '#9900F0' },
+    { colorName: 'Pink', hexCode: '#F900BF' },
+    { colorName: 'Peach', hexCode: '#FF85B3' },
+    { colorName: 'Orange', hexCode: '#e66225' },
+  ]
+
+  const RANDOM_COLORS = [
+    { colorName: 'Isabeline', hexCode: '#F2EFEA' },
+    { colorName: 'Outrageous Orange', hexCode: '#FC7753' },
+    { colorName: 'Medium Turqouise', hexCode: '#66D7D1' },
+    { colorName: 'Independence', hexCode: '#403D58' },
+    { colorName: 'Straw', hexCode: '#DBD56E' },
+  ]
+
   const COLOR_PALETTES = [
     { paletteName: 'Solarized', colors: SOLARIZED },
     { paletteName: 'Frontend Masters', colors: FRONTEND_MASTERS },
     { paletteName: 'Rainbow', colors: RAINBOW },
+    { paletteName: 'Bi Flag', colors: BI_FLAG},
+    { paletteName: 'Random Colours', colors: RANDOM_COLORS}
   ];
 
 const Home = ({navigation}) => {
