@@ -22,6 +22,7 @@ const styles = StyleSheet.create({
     text: {
         fontWeight: 'bold',
         fontSize: 18,
+        marginBottom: 3,
     },
     color: {
         margin: 2,
@@ -30,6 +31,7 @@ const styles = StyleSheet.create({
         borderRadius: 3,
         borderColor: 'black',
         borderWidth: 1.5,
+        marginBottom: 3,
     }
 })
 
